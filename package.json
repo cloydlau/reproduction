@@ -1,0 +1,11 @@
+{
+  "name": "reproduction",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vanilla-jsoneditor": "latest",
+    "vite": "latest"
+  }
+}
