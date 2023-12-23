@@ -7,28 +7,9 @@
   </head>
   <body>
     <p>
-      <button onclick="programmaticallyUpdateContentUsingSetAPIByMutatingTheOriginalJSON()">
-        programmaticallyUpdateContentUsingSetAPIByMutatingTheOriginalJSON
+      <button onclick="setJSONValueUnderTextMode()">
+        setJSONValueUnderTextMode
       </button>
-      <div style="text-indent: 2em; color: red;">Effectual but do not trigger onChange</div>
-   </p>
-   <p>
-      <button onclick="programmaticallyUpdateContentUsingSetAPIByCreatingANewJSON()">
-        programmaticallyUpdateContentUsingSetAPIByCreatingANewJSON
-      </button>
-      <div style="text-indent: 2em; color: red;">Effectual but do not trigger onChange</div>
-    </p>
-    <p>
-      <button onclick="programmaticallyUpdateContentUsingUpdateAPIByMutatingTheOriginalJSON()">
-        programmaticallyUpdateContentUsingUpdateAPIByMutatingTheOriginalJSON
-      </button>
-      <div style="text-indent: 2em; color: red;">Ineffectual and do not trigger onChange</div>
-    </p>
-    <p>
-      <button onclick="programmaticallyUpdateContentUsingUpdateAPIByCreatingANewJSON()">
-        programmaticallyUpdateContentUsingUpdateAPIByCreatingANewJSON
-      </button>
-      <div style="text-indent: 2em; color: red;">Ineffectual and do not trigger onChange, however, if you hit button 2 previously, it's working!</div>
     </p>
     <div id="jsonEditor"></div>
     <script type="module" src="/main.js"></script>
