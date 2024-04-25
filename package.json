@@ -5,14 +5,18 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "lint": "eslint \"**/*.{js,mjs,cjs,jsx,ts,mts,cts,tsx,vue,json,md,html,css,scss,sass}\""
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^2"
+    "lodash-es": "^4.17.21",
+    "vue": "3.4.22",
+    "vue-demi": "^0.14.7"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "latest",
-    "@vitejs/plugin-vue2": "latest",
-    "vite": "latest"
+    "@antfu/eslint-config": "^2.15.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "eslint-plugin-format": "^0.1.1",
+    "vite": "^5.2.10"
   }
 }

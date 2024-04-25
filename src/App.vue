@@ -1,9 +1,7 @@
-<script>
-export default {
-
-}
+<script setup>
+import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div @click="$emit('test')" />
+  <HelloWorld msg="Vite + Vue" />
 </template>
