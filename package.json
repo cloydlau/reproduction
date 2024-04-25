@@ -10,8 +10,7 @@
   },
   "dependencies": {
     "lodash-es": "^4.17.21",
-    "vue": "3.4.22",
-    "vue-demi": "^0.14.7"
+    "vue": "3.4.22"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.15.0",
